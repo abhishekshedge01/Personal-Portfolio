@@ -88,8 +88,15 @@ section
     border-radius: 30px;
 }
 
-.abc
+.abc1
 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.abc{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
