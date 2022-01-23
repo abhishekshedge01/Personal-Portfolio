@@ -1,0 +1,195 @@
+body
+{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+    background-color: white;
+}
+
+
+.wrapper
+{
+    width: 1050px;
+    background-color: rgb(216, 216, 216);
+    padding: 50px 30px 50px 0px;
+    margin: 0 auto;
+    position: relative;
+    height: 2100px;
+}
+
+header
+{
+    float: left;
+    width: 350px;
+    position: fixed;
+}
+
+.inner
+{
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner h1
+{
+    font-size: 30px;
+}
+
+
+.inner-align
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.features
+{
+    display: block;
+    text-align: center;
+    font-weight: 400;
+}
+
+.school1
+{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    color: rgb(65, 65, 65);
+}
+
+.myname
+{
+    color: rgb(36, 36, 36);
+}
+
+
+
+
+footer
+{
+    float: left;
+    position: fixed;
+    bottom: 50px;
+    width: 350px;
+}
+
+section
+{
+    width: 700px;
+    float: right;
+    padding-bottom: 50px;
+    background: #1488CC;
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, #2B32B2, #1488CC);
+    border-radius: 30px;
+}
+
+.abc
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.folio
+{
+    padding: 10px 20px;
+}
+
+.folio h2
+{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #eeeeee;
+    font-size: 1.5em;
+}
+
+.small
+{
+    width: 98%;
+}
+
+.folio h3
+{
+    font-size: 1.17em;
+}
+
+hr{
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+
+}
+
+#aitpune
+{
+    color: rgb(219, 219, 219);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.folio p
+{
+    font-family: 'Nunito', sans-serif;
+    color: #c5c5c5;
+}
+
+.folio h3
+{
+    color: rgb(199, 199, 199);
+}
+.folio h4
+{
+    color: rgb(255, 255, 255);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: normal;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.profile-pic
+{
+    max-width: 100%;
+    border-radius: 60%;
+    width: 60%;
+}
+
+.header-icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header-icons img
+{
+    transition: all ease-in 3s;
+    padding: 0px 5px;
+}
+
+.header-icons a:hover
+{
+    transform: translateY(-3px);
+}
+
+.skill-icons
+{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.white-bg
+{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 5px 0px 5px;
+    border-radius: 100px;
+}
